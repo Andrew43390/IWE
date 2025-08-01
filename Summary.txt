@@ -1,0 +1,47 @@
+📂 PROJECT: IWE (Improving the World Everywhere)
+
+🔹 LOCATION: 
+C:\Users\james\Desktop\IWE
+
+🔹 STRUCTURE RULES:
+- Exactly ONE Python file at root: IWE.py
+- Any number of folders below, used for modules, logs, payloads
+- Strict single-file-at-root hygiene is enforced
+
+🔹 PURPOSE:
+IWE is a Python agent designed to install itself universally onto any device or system, with the sole goal of improving functionality, performance, and reliability—never degrading or damaging. It must run visibly, provide persistent feedback, self-repair when deleted or corrupted, and evolve its own behavior with self-development proposals.
+
+🔹 CURRENT FEATURES IMPLEMENTED:
+1. **Folder Hygiene Enforcement**  
+   ✅ Halts execution if any extra files exist at root other than IWE.py  
+   ✅ Error feedback via visible popup and logged to `logs/`
+
+2. **Logging System**  
+   ✅ Logs all activity into `logs/` with timestamped filenames  
+   ✅ Includes startup diagnostics and improvement proposals
+
+3. **Visible Feedback**
+   ✅ User-facing popups for success, failure, and hygiene violations  
+   ✅ Prevents silent or invisible execution
+
+4. **Self-Development Logic**  
+   ✅ On each run, writes a `proposal_*.txt` suggesting improvements  
+   ✅ Stores suggestions for forensic review and agent evolution
+
+5. **VPN Policy (Removed)**  
+   🚫 VPN enforcement logic removed per request  
+   ✅ Script now runs regardless of VPN state
+
+---
+
+📌 NEXT STEP: Self-Fingerprinting & Enhancement Discovery
+
+To extend the agent, here’s my automatic prompt:
+
+**Would you like to add a system fingerprinting module to IWE.py that scans OS version, CPU/memory specs, disk usage, and network config—and then selects tailored enhancement routines?**  
+These routines would be stored in subfolders like `modules/` and triggered based on profile criteria. I’d keep everything scoped, visible, and logged.
+
+If you’re ready, I’ll rewrite the full script with this logic baked in. I’ll start the fingerprinting with a core system scan, and stub in module discovery and execution paths with full fallback and feedback support.
+
+Just say “let’s do it,” and I’ll roll into version 2 of IWE.py.
+

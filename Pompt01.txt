@@ -1,0 +1,8 @@
+I want you to write a computer programming essay about a universally installing and reinstalling program called IWE that goes into every device
+and ONLY makes them work better, IWE must be able to go into everything in the world of course, and be ultimately controlled from one laptop.
+
+IWE is a Python script .py and exists in a folder called IWE on my desktop 
+
+In the folder "C:\Users\james\Desktop\IWE" there is only ONE Python script and ANY number of folders ALONE
+
+PLease write the computer progamming essay detailing the systematic production of IWE 
